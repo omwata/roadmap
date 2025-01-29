@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en_UK">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width: device-width,initial-scale=1.0">
+        <meta name="author" content="Emmanuel Omwata">
+        <meta http-equiv="refresh" content="30">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+        <title>Basic HTML Website</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="thead">
+                <div class="profile">
+                  <img id="pic" src="profile1.jpg" alt="profile-pic" name="profile-pic" width="100" height="100">
+                </div>    
+                <div class="title">
+                  <h1>Emmanuel Omwata</h1>
+                   <p>Front-End Web Developer</p>
+                </div>
+            </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="homepage.html">Homepage</a></li>
+                <li><a href="projects.html" >Projects</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main class="main">
+            <aside class="sidebar">
+                <h3>Social Media</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/emmanuel-otigo-765022109/" class="linkedin" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/omwata?tab=repositories" class="github" target="_blank" aria-label="GitHub" title="GitHub">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://wa.me/254707330710?text=Hello!%20I%20want%20to%20connect" class="whatsapp" target="_blank" aria-label="WhatsApp" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>                  
+<!--                 <ul>
+                    <li><a href="https://www.linkedin.com/in/emmanuel-otigo-765022109">LinkedIn</a></li>
+                    <li><a href="https://www.x.com/omwata05">X</a></li>
+                </ul> -->
+            </aside>
+            <div class="class article">
+                <section class="content">
+                    <h2>Contact Us</h2>
+                    <p>Feel like talking to us about consultancy, services, comment, feedback or anything, please contact us on any platform in this page be it through our social media handles, email, telephone or filling a form. You talk, we listen!!</p>
+                    <form id="comment">
+                        <fieldset>
+                            <legend style="color: rgb(224, 15, 15);">Comments and Feedback</legend>
+                            <label for="name">Name: </label><br>
+                            <input type="text" name="name" autocomplete="name" required placeholder="Name"><br>
+                            <label for="email">Email:</label><br>
+                            <input type="email" name="email" autocomplete="email" required placeholder="Email"><br>
+                            <label for="message"> Message: </label><br>
+                            <textarea name="message" placeholder="Write your message here" required></textarea><br>
+                            <button type="button" name="Send" value="Send">Send</button>
+                        </fieldset>
+                    </form>
+                </section>
+                <section class="content">
+                    <h3>Call or text us</h3>
+                    <p><strong> Phone:</strong>+254787052271</p>
+                    <p><strong>Email:</strong><a href="mailto:omwata05@gmail.com">omwata05@gmail.com</a></p>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2025 Front-End Web Development. All rights reserved.</p>
+            <p><a href="privacy.html" target="_blank" >Privacy Policy</a></p>
+        </footer>
+    </body>
+</html>
